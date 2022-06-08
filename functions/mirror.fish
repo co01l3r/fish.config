@@ -1,0 +1,3 @@
+function mirror
+    scrcpy
+end
