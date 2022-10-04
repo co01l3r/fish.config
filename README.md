@@ -1,5 +1,3 @@
-My commands and shortens for fish shell environment
-
 ### Django
 
 #### _collectatic
@@ -22,6 +20,7 @@ python3 manage.py runserver
 ```python
 python3 manage.py shell
 ```
+
 
 ### Ubuntu
 
