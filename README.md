@@ -1,3 +1,5 @@
+My commands and shortens for fish shell environment
+
 ### Django
 
 #### _collectatic
