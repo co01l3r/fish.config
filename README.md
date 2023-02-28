@@ -1,6 +1,6 @@
 ### Django
 
-#### _collectatic
+#### _collectstatic
 ```python
 python3 manage.py collectstatic
 ```
@@ -19,6 +19,23 @@ python3 manage.py runserver
 #### _shell
 ```python
 python3 manage.py shell
+```
+#### __shell
+```python
+python3 manage.py shell_plus
+```
+#### _test
+```python
+python3 manage.py test
+```
+#### _ctest
+```python
+coverage run manage.py test
+coverage report
+```
+#### _fixtures
+```python
+python3 manage.py loaddata fixtures/*
 ```
 
 
@@ -53,4 +70,26 @@ python3.9 -m venv venv
 ```shell
 source venv/bin/activate.fish
 pip list
+```
+
+### Docker
+
+#### dcb
+```python
+docker-compose up --build
+```
+#### dcu
+```python
+docker-compose up
+```
+
+### Git
+
+#### push
+```python
+git push -u origin master
+```
+#### pull
+```python
+git pull -u origin master
 ```
