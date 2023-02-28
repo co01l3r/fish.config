@@ -91,5 +91,5 @@ git push -u origin master
 ```
 #### pull
 ```python
-git pull -u origin master
+git pull origin master
 ```
