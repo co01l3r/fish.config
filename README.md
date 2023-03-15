@@ -83,7 +83,7 @@ docker-compose up --build
 docker-compose up
 ```
 
-### Git
+### Github
 
 #### push
 ```python
